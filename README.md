@@ -1,5 +1,8 @@
 # sketch2face
-This is tensorflow implementation based on [pix2pix](https://phillipi.github.io/pix2pix/). I specifically tried to train the model to convert a human face sketch image to a photo-like image. The output image quality was a little bit below my expectation but it worked anyhow. I'm pretty new to ML or tensorflow and any kind of advice would be grateful.
+This is tensorflow implementation based on [pix2pix](https://phillipi.github.io/pix2pix/). I specifically tried to train the model to convert a human face sketch image to a photo-like image.
+
+Need improvements:
+It works for edges extracted from real photos, but not very well for hand-drawn sketch.
 
 Differences from the paper:
 - To avoid the fast convergence of discriminator, updated generator twice for each training step. <br/>(Borrowed the idea from https://github.com/carpedm20/DCGAN-tensorflow)
