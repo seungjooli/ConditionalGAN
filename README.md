@@ -1,4 +1,4 @@
-# sketch2face
+# ConditionalGAN - sketch2face
 This is tensorflow implementation based on [pix2pix](https://phillipi.github.io/pix2pix/). I specifically tried to train the model to convert a human face sketch image to a photo-like image.
 
 Need improvements:
@@ -38,8 +38,7 @@ To test the model with a canvas UI:
 
     $ python main.py --mode=test
 
-## Setup
-My environment:
+## Environment
 - python (3.5.3)
 - tensorflow-gpu (1.1.0)
 - opencv-python (3.2.0)
